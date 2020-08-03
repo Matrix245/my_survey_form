@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My_Survy_Form</title>
+    <link rel="stylesheet" type="text/css" href="form.css"/>
+  </head>
+
+  <body>
+    <h1 id="title"></h1>
+    <p id="description"></p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input id="name" type="text" placeholder="pleas enter your name"required/>
+      <label for="email" id="email-label">E-Mail</label>
+      <input id="email" type="email" placeholder="emails look like this name@gmx.de"required/>
+      <label for="number" id="number-label">Number</label>
+      <input id="number" type="number" min="1" max="5" placeholder="only numbers"required/>
+
+      <label for="dropdown">choose something</label>
+      <select id="dropdown" name="irgw">
+        <option value="23">23</option>
+        <option value="zz">zz</option>
+        <option value="11">11</option>
+      </select>
+
+      <label for="YES">Yes</label>
+      <input id="YES" type="radio" name="ok" value="yes">
+
+      <label for="NO">No</label>
+      <input id="NO" type="radio" name="ok" value="no">
+
+      <label for="ch">1</label>
+      <input id="ch" type="checkbox" name="iii" value="1">
+      <label for="o">2</label>
+      <input id="o" type="checkbox" name="iii" value="2">
+      <label for="b">3</label>
+      <input id="b" type="checkbox" name="iii" value="3">
+
+      <textarea></textarea>
+      <br></br>
+      <button type="submit">Submit</button>
+
+
+
+    </form>
+
+  </body>
+
+
+</html>
