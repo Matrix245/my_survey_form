@@ -6,16 +6,20 @@
   </head>
 
   <body>
-    <h1 id="title">Hello my Survey Form</h1>
+    <h1 id="title">Welcome to my Survey Form</h1>
     <p id="description">take your time and fill the blank</p>
     <form id="survey-form">
+<!--input area for name age and email-->
       <label for="name" id="name-label">Name</label>
       <input id="name" type="text" placeholder="pleas enter your name"required/>
+
       <label for="email" id="email-label">E-Mail</label>
       <input id="email" type="email" placeholder="emails look like this name@gmx.de"required/>
+
       <label for="number" id="number-label">Age</label>
       <input id="number" type="number" min="10" max="117" placeholder="only numbers"required/>
 
+<!--a dropdown menu-->
       <label for="dropdown">choose something</label>
       <select id="dropdown" name="irgw">
         <option value="23">23</option>
@@ -23,6 +27,7 @@
         <option value="11">11</option>
       </select>
 
+<!--the radio area for asking how are you feel-->
       <fieldset>
         <legend>How are you?</legend>
         <label for="great">I'm feeling Great</label>
@@ -43,9 +48,10 @@
       <input id="b" type="checkbox" name="iii" value="3">
     </fieldset>
 
-      <textarea></textarea>
-      <br></br>
-      <button type="submit">Submit</button>
+<!--a textarea to leave a comment-->    
+    <textarea></textarea>
+    <br></br>
+    <button type="submit">Submit</button>
 
 
 
