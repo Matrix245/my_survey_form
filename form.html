@@ -8,47 +8,51 @@
   <body>
     <h1 id="title">Welcome to my Survey Form</h1>
     <p id="description">take your time and fill the blank</p>
+
     <form id="survey-form">
 <!--input area for name age and email-->
-      <label for="name" id="name-label">Name</label>
+
+      <label for="name" id="name-label">Name</label><br/>
       <input id="name" type="text" placeholder="pleas enter your name"required/>
-
-      <label for="email" id="email-label">E-Mail</label>
-      <input id="email" type="email" placeholder="emails look like this name@gmx.de"required/>
-
-      <label for="number" id="number-label">Age</label>
+      <br/><br/>
+      <label for="email" id="email-label">E-Mail</label><br/>
+      <input id="email" type="email" placeholder="name@gmx.de"required/><br/>
+      <br/>
+      <label for="number" id="number-label">Age</label><br/>
       <input id="number" type="number" min="10" max="117" placeholder="only numbers"required/>
-
+      <br/><br/>
 <!--a dropdown menu-->
-      <label for="dropdown">choose something</label>
-      <select id="dropdown" name="irgw">
-        <option value="23">23</option>
-        <option value="zz">zz</option>
-        <option value="11">11</option>
+      <label for="dropdown">Which job best describes you?</label><br/>
+      <select id="dropdown" name="job">
+        <option value="freelancer">freelancer</option>
+        <option value="employee">employee</option>
+        <option value="student">student</option>
+        <option value="no_answer">I don't want to answer</option>
+        <option value="other">Other</option>
       </select>
-
+      <br/><br/>
 <!--the radio area for asking how do you feel-->
-      <fieldset>
+    <fieldset>
         <legend>How are you?</legend>
-        <label for="great">I'm feeling Great</label>
-        <input id="great" type="radio" name="hay" value="Great">
-        <label for="fine">I'm fine</label>
-        <input id="fine" type="radio" name="hay" value="Fine">
-        <label for="bad">I'm feeling bad</label>
-        <input id="bad" type="radio" name="hay" value="Bad">
+        <label for="great"><input id="great" type="radio" name="hay" value="Great">I'm feeling Great</label><br/>
+        <label for="fine"><input id="fine" type="radio" name="hay" value="Fine">I'm fine</label><br/>
+        <label for="bad"><input id="bad" type="radio" name="hay" value="Bad">I'm feeling bad</label>
     </fieldset>
 
+    <br/><br/>
     <fieldset>
-      <legend>Which of this games do you like?<p>(you can choose more then one)</p></legend>
-      <label for="ch">1</label>
-      <input id="ch" type="checkbox" name="Game" value="1">
-      <label for="o">2</label>
-      <input id="o" type="checkbox" name="Game" value="2">
-      <label for="b">3</label>
-      <input id="b" type="checkbox" name="Game" value="3">
+      <legend>Which of this Computer games do you like?<p>(you can choose more then one)</p></legend>
+      <label for="Bo"><input id="Bo" type="checkbox" name="Game" value="Borderland">Borderland</label><br/>
+      <label for="Mc"><input id="Mc" type="checkbox" name="Game" value="Minecraft">Minecraft</label><br/>
+      <label for="LOL"><input id="LOL" type="checkbox" name="Game" value="League_of_Legends">League of Legends</label><br/>
+      <label for="Fn"><input id="Fn" type="checkbox" name="Game" value="Fortnite">Fortnite</label><br/>
+      <label for="Ao"><input id="Ao" type="checkbox" name="Game" value="Anno_1800">Anno 1800</label><br/>
+      <label for="TW3"><input id="TW3" type="checkbox" name="Game" value="The_Witcher_3">The Witcher 3</label><br/>
+      <label for="Fe"><input id="Fe" type="checkbox" name="Game" value="Fable">Fable</label>
     </fieldset>
 
 <!--a textarea to leave a comment-->
+    <p id="title_textarea">If you want to leave a comment use the box below</p>
     <textarea></textarea>
     <br></br>
     <button type="submit">Submit</button>
