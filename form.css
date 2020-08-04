@@ -1,11 +1,25 @@
-#title{
-
+body{
+  background: linear-gradient(70deg,rgb(0, 0, 77),rgb(102, 153, 255));
 }
+
+
+#title{
+  display:flex;
+  justify-content: center;
+  color: green;
+}
+
+#description{
+  display:flex;
+  justify-content: center;
+}
+
+
 
 #survey-form{
   margin:0em 12em 0em 12em;
   padding:1em 3em 1em 3em;
-  background-color: red;
+  background-color: rgba(77, 26, 0,0.7);
   display:grid;
   grid-row:1/15;
 }
