@@ -1,3 +1,36 @@
 #title{
 
 }
+
+#survey-form{
+  margin:0em 12em 0em 12em;
+  padding:1em 3em 1em 3em;
+  background-color: red;
+  display:grid;
+  grid-row:1/15;
+}
+
+#name{
+  margin-bottom:2%;
+}
+
+#email{
+  margin-bottom:2%;
+}
+
+#number{
+  margin-bottom:2%;
+}
+
+#dropdown{
+  margin-bottom:2%;
+}
+
+fieldset{
+  margin-bottom:2%;
+}
+
+button{
+  margin-top:2%;
+  margin-bottom:2%;
+}
