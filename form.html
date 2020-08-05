@@ -7,7 +7,7 @@
 
   <body>
     <h1 id="title">Welcome to my Survey Form</h1>
-    <p id="description">take your time and fill the blank</p>
+    <p id="description">take your time and fill the blanks</p>
 
     <form id="survey-form">
 <!--input area for name age and email-->
@@ -21,7 +21,7 @@
       <input id="number" type="number" min="10" max="117" placeholder="only numbers"required/>
 
 <!--a dropdown menu-->
-      <label for="dropdown">Which job best describes you?</label>
+      <label for="dropdown" id="dropdown-label">What is your job?</label>
       <select id="dropdown" name="job">
         <option value="freelancer">freelancer</option>
         <option value="employee">employee</option>
@@ -40,7 +40,7 @@
 
 
     <fieldset>
-      <legend>Which of this Computer games do you like? (you can choose more then one)</legend>
+      <legend>Which Computer games do you like? (you can choose more than one)</legend>
       <label for="Bo"><input id="Bo" type="checkbox" name="Game" value="Borderland">Borderland</label><br/>
       <label for="Mc"><input id="Mc" type="checkbox" name="Game" value="Minecraft">Minecraft</label><br/>
       <label for="LOL"><input id="LOL" type="checkbox" name="Game" value="League_of_Legends">League of Legends</label><br/>
@@ -54,7 +54,7 @@
     <p id="title_textarea">If you want to leave a comment use the box below</p>
     <textarea></textarea>
 
-    <button type="submit">Submit</button>
+    <button  id="submit"type="submit">Submit</button>
 
 
 

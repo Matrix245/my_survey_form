@@ -6,12 +6,14 @@ body{
 #title{
   display:flex;
   justify-content: center;
-  color: green;
+  color: white;
 }
 
 #description{
   display:flex;
   justify-content: center;
+  color:white;
+  font-size: 3vh;
 }
 
 
@@ -22,6 +24,8 @@ body{
   background-color: rgba(77, 26, 0,0.7);
   display:grid;
   grid-row:1/15;
+  color:rgb(204, 255, 255);
+  font-size:3vh;
 }
 
 #name{
@@ -40,6 +44,22 @@ body{
   margin-bottom:2%;
 }
 
+#name-label{
+  margin-bottom: 1%;
+}
+
+#email-label{
+  margin-bottom:1%;
+}
+
+#number-label{
+  margin-bottom:1%;
+}
+
+#dropdown-label{
+  margin-bottom:1%;
+}
+
 fieldset{
   margin-bottom:2%;
 }
@@ -47,4 +67,8 @@ fieldset{
 button{
   margin-top:2%;
   margin-bottom:2%;
+}
+
+textarea{
+  height:110px;
 }
